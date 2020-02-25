@@ -325,3 +325,5 @@ plugins: # https://jekyllrb.com/docs/plugins/ githubpage上支持的插件见htt
 
 readme_index:
   with_frontmatter: true
+
+theme: jekyll-theme-cayman
