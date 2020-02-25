@@ -1,11 +1,11 @@
 # 这个文件仅用于生成文档，配置项并不完整，可以在<https://github.com/wu-kan/wu-kan.github.io/blob/master/_config.yml>获取完整配置文档及示例！
-title: jekyll-theme-Verdvana
+title: jekyll-theme-WuK
 description: A content-first, sliding sidebar theme for Jekyll.
-url: https://jekyll-theme-Verdvana.Verdvana.cn
+url: https://jekyll-theme-WuK.wu-kan.cn
 baseurl: ""
 tagline: wu-kan
 
-jekyll-theme-Verdvana:
+jekyll-theme-WuK:
   page:
     title:
       site_title:
