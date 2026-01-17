@@ -16,13 +16,7 @@
   {{ node }}
   {% endfor %}
 </head>
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({
-    startOnLoad: true,
-    theme: 'default'  // 可以改成 'forest'、'neutral' 等主题
-  });
-</script>
+
 <body
   class="{{ site.jekyll-theme-WuK.default.body.theme-base }}{% if site.jekyll-theme-WuK.default.body.layout-reverse %} layout-reverse{% endif %}{% if site.jekyll-theme-WuK.default.body.sidebar-overlay %} sidebar-overlay{% endif %}">
   {% unless site.jekyll-theme-WuK.default.sidebar.disable %}
