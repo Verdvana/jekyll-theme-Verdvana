@@ -15,6 +15,7 @@
   {% for node in site.jekyll-theme-WuK.default.append_to_head %}
   {{ node }}
   {% endfor %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wavedrom/3.4.0/skins/default.js" type="text/javascript"></script>
 </head>
 
 <body
@@ -93,6 +94,7 @@
   {% unless site.jekyll-theme-WuK.default.sidebar.disable %}
   <label for="sidebar-checkbox" class="sidebar-toggle fas fa-bars"></label>
   {% endunless %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wavedrom/3.4.0/wavedrom.min.js" onload="WaveDrom.ProcessAll()"></script>
 </body>
 
 </html>
