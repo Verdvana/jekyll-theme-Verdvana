@@ -1,0 +1,15 @@
+
+---
+layout: default
+title: Labs
+permalink: /labs/
+---
+
+<h1>Labs</h1>
+<ul>
+  {% raw %}{% for item in site.labs %}{% endraw %}
+    <li>
+      <a href="{% raw %}{{ item.url }}{%}{% raw %}{{ item.title | default: item.slug }}{% endraw %}</a>
+    </li>
+  {% raw %}{% endfor %}{% endraw %}
+</ul>
